@@ -16,8 +16,9 @@ section {
 }
 
 a {
-    color: #007bff;
+    color: #ff335f;
     text-decoration: none;
+    font-size: 0.9em;
 }
 
 
@@ -34,4 +35,16 @@ h2 {
 p{
     font-size: 1.7em;
     margin-bottom: 0.5em;
+}
+
+
+@media only screen and (max-width: 1000px) {
+    .resume--card{
+        width: 100% ;
+    }
+
+    p{
+        font-size: 1.5rem;
+        margin-bottom: 0.5em;
+    }
 }
