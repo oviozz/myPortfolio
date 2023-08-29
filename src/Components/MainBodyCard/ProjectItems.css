@@ -1,0 +1,16 @@
+
+.items--container{
+    list-style-type: none;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2.5em;
+
+}
+
+
+@media only screen and (max-width: 1000px) {
+    .items--container{
+        display: flex;
+        justify-content: center;
+    }
+}

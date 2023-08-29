@@ -1,0 +1,39 @@
+
+.footer--container{
+    width: 70%;
+    margin: -20px auto 0;
+}
+
+.footer--items{
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+    padding: 5px;
+}
+
+.footer--item{
+
+    text-align: center;
+}
+
+.footer--item:hover .ft--item, .footer--icon{
+    color: #ff335f;
+    cursor: pointer ;
+}
+
+.ft--item{
+    font-size: 1rem;
+}
+
+
+.footer--icon{
+    font-size: 1rem;
+}
+
+@media only screen and (max-width: 1000px) {
+
+    .footer--container{
+        width: 100%;
+    }
+
+}

@@ -1,0 +1,82 @@
+
+.body--container {
+    display: flex;
+    justify-content: center; /* Center content horizontally */
+    align-items: center; /* Center content vertically */
+
+    margin-top: 2em;
+}
+
+.body--content {
+    text-align: left; /* Right-align text within content */
+    max-width: 65%; /* Adjust as needed */
+}
+
+.body--title,
+.link--title {
+    color: #ff335f;
+    font-size: 2rem;
+}
+
+.link--title{
+    text-decoration: none;
+    color: inherit;
+    border-bottom: 13px solid rgba(38, 255, 174, 0.5);
+    display: inline-block;
+    height: 1.1em;
+}
+
+.link--description{
+    display: inline-block;
+    text-decoration: none;
+    color: inherit;
+    border-bottom: 13px solid #fdf093;
+    height: 1.2em;
+}
+
+.body--header {
+    font-family: "Noe Display", Georgia, Times, serif;
+    font-size: 5.9rem;
+}
+
+.header--dot {
+    color: #595aff;
+}
+
+.body--description,
+.link--description {
+    font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    font-weight: lighter;
+    font-size: 2rem;
+}
+
+@media only screen and (max-width: 1000px) {
+
+    .body--container{
+        height: auto;
+        padding: 0 1em 0 1em;
+    }
+
+    .body--content{
+        max-width: 100%;
+
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .body--title, .link--title{
+        font-size: 1.4rem;
+    }
+
+    .body--header{
+        font-size: 3.4rem;
+        line-height: 50px;
+    }
+
+    .body--description,
+    .link--description {
+        font-size: 1.4rem;
+    }
+
+}

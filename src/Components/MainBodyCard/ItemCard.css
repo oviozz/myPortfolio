@@ -1,0 +1,62 @@
+
+.item--container {
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 0.5rem;
+    box-shadow: 14px 14px 60px -10px rgba(0, 0, 0, 0.25);
+    width: 310px;
+    position: relative;
+    overflow: hidden;
+}
+
+.item--container:hover .item--info {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+.item--image {
+    background-size: cover;
+    height: 330px;
+    width: 100%;
+}
+
+.item--title {
+    font-size: 36px;
+    font-weight: bolder;
+    font-family: "Noe Display", Georgia, Times, serif;
+    color: #ffffff;
+    position: absolute;
+    top: 20px;
+    left: 20px;
+}
+
+.item--info {
+    opacity: 0;
+    transform: translateY(20px);
+    transition: opacity 0.2s cubic-bezier(0.4, 0, 0.2, 1), transform 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.6);
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+    padding: 20px;
+
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.item--descri {
+    text-align: left;
+    color: #ffffff;
+    line-height: 25px;
+    margin-top: 10px;
+}
+
+@media only screen and (max-width: 1000px) {
+    .item--info {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}

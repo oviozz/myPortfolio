@@ -1,0 +1,22 @@
+
+
+.navbar--item {
+    font-size: 1.5rem;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+
+
+
+.navbar-heavy{
+    font-weight: 900;
+}
+
+.navbar--item:hover .navbar-heavy{
+    color: #ff335f;
+}
+
+@media only screen and (max-width: 1000px) {
+    
+}

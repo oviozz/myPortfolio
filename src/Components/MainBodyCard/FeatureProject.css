@@ -1,0 +1,49 @@
+
+.feature--container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+
+.feature--content {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start; /* Align content to the top of the container */
+    margin: auto; /* Center horizontally */
+    gap: 10px;
+    width: 70%;
+
+}
+
+
+.feature--title{
+    font-family: "Noe Display", Georgia, Times, serif;
+    font-size: 2.5rem;
+
+}
+
+.feature--dot{
+    font-size:4.7rem;
+    color: #595aff;
+}
+
+
+@media only screen and (max-width: 1000px) {
+    .feature--title{
+        line-height: 25px;
+        text-align: left;
+        font-size: 2rem;
+        margin-bottom: 0.7em;
+    }
+
+    .feature--content {
+        align-items: flex-start;
+        max-width: 90%;
+        width: 100%;
+        margin: auto;
+    }
+}
