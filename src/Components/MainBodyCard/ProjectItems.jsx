@@ -9,7 +9,7 @@ function ProjectItems({ limit }){
             title: "TastyBites",
             description: "A website presenting an array of food categories and their respective recipes, enabling users to explore and access comprehensive dish information.",
             imageLink: "https://user-images.githubusercontent.com/42685801/261949001-26071a46-1f07-4d0f-a0f4-eff6c3bb9a5d.png",
-            repositoryLink: "https://tasty-bites-orcin.vercel.app/",
+            repositoryLink: "https://tasty-bite.vercel.app/",
             language: "React/JS"
         },
         {
